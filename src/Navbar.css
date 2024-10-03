@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'BarFont';
+    src: url('./component/BarFont.ttf') format('truetype');
+  }
+  
+  .navbar-container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: #f2fcf1;
+    background: linear-gradient(to bottom, antiquewhite, transparent);
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'BarFont', sans-serif;
+    z-index: 1;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #633f33;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    color: #f4fcec;
+    text-decoration: underline;
+  }
+  
+
+  

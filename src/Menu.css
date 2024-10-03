@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'BarFont';
+  src: url('./component/BarFont.ttf') format('truetype');
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.menu {
+    width: 600px;
+    height: 600px;
+    background-image: url('./component/menu-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px rgba(0.5, 0.5, 0.5, 0.2);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr; /* Define rows: auto for the header, 1fr for the rest */
+    gap: 20px;
+    padding: 10px;
+    align-items: start;
+    font-family: 'BarFont', sans-serif;
+    color: #633f33;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0; /* Remove margin-top to bring items closer */
+}
+
+.menu h1 {
+    grid-column: span 2;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px; /* Optional: Add margin-bottom to control spacing */
+}
+.menu-contact {
+    font-size: 22px;
+    text-align: center;
+    grid-column: span 2; /* Make the contact section span across both columns */
+    justify-self: center; /* Center the contact section horizontally */
+}
+.p-bold {
+    font-size: 25px;
+    font-weight: bold;
+}
+.p-underline {
+    text-decoration: underline;
+}

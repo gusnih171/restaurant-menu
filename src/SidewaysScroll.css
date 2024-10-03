@@ -1,0 +1,38 @@
+.scroll-container {
+  display: flex;
+  overflow-x: scroll; /* This is correct */
+  width: 100%; /* Ensure the container expands with the content */
+  height: 100vh;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  scroll-snap-type: x mandatory; /* Optional: for snapping effect */
+  flex-wrap: nowrap; /* Ensure items don't wrap */
+}
+
+.scroll-item {
+  flex: 0 0 auto; /* Prevent items from shrinking */
+  width: 100vw; /* Each item takes full width of the viewport */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional: Customize scrollbar */
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #f4fcec;
+  border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #f8fcf4
+}
+
+.logo {
+  width: 650px;
+  height: 650px;
+  box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+}
