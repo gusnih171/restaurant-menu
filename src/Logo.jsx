@@ -55,13 +55,10 @@ const Logo = () => {
             <img className='logo' src={LogoCow}/> 
               <div class="content"> 
                 <h1>Welcome to Burger Restaurant</h1> 
-                  <p>In the heart of Burger Town, a small Southern city known for its charm and hospitality, there was a cozy little spot called Burger Restaurant. My father, a jolly man with a big beard and even bigger heart, had opened the restaurant with one mission: to create the best cheeseburger in Burger Town. His secret? Fresh, local ingredients and recipes passed down from his mother, who made the sauces by hand.
-
-Every morning, My father would fire up the grill, seasoning the beef with a blend of spices that only he knew. The smell of sizzling burgers filled the air, drawing locals and travelers alike. Customers loved the classic cheeseburger, with juicy patties, Pepper Jack Cheese, crisp pickles, and Mamas signature BBQ sauces, all served on a toasted bun.
-
-We became the pride of Burger Town. Families came after church, and road trippers made it a point to stop by for lunch. There was something about the combination of food, friendly atmosphere, and our stories that made it special. As word spread, Burger Restaurant became a must-visit for anyone who passed through.
-
-No matter how busy the restaurant got, we always had time to chat with customers, asking about their day and sharing our love for great food. For the people of Burger Town, Burger Restaurant wasn't just a restaurant; it was a place that felt like home. And that is our story.</p> 
+                  <p>In the heart of Burger Town, a small Southern city known for its charm and hospitality, there was a cozy little spot called Burger Restaurant. My father, a jolly man with a big beard and even bigger heart, had opened the restaurant with one mission: to create the best cheeseburger in Burger Town. His secret? Fresh, local ingredients and recipes passed down from his mother, who made the sauces by hand.</p>
+                  <p>Every morning, My father would fire up the grill, seasoning the beef with a blend of spices that only he knew. The smell of sizzling burgers filled the air, drawing locals and travelers alike. Customers loved the classic cheeseburger, with juicy patties, Pepper Jack Cheese, crisp pickles, and Mamas signature BBQ sauces, all served on a toasted bun.</p>
+                  <p>We became the pride of Burger Town. Families came after church, and road trippers made it a point to stop by for lunch. There was something about the combination of food, friendly atmosphere, and our stories that made it special. As word spread, Burger Restaurant became a must-visit for anyone who passed through.</p>
+                  <p>No matter how busy the restaurant got, we always had time to chat with customers, asking about their day and sharing our love for great food. For the people of Burger Town, Burger Restaurant wasn't just a restaurant; it was a place that felt like home. And that is our story.</p> 
               </div> 
           </div>
         </div>

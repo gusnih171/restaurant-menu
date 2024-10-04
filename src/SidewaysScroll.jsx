@@ -19,7 +19,7 @@ const SidewaysScroll = () => {
     if (scrollContainer) {
       console.log('Scroll container found:', scrollContainer);
 
-      // GSAP ScrollTrigger setup
+      
       gsap.to(scrollContainer, {
         x: () => -(scrollContainer.scrollWidth - scrollContainer.clientWidth),
         ease: 'none',
@@ -38,7 +38,7 @@ const SidewaysScroll = () => {
         },
       });
 
-      // Add event listener for mouse wheel
+     
       const handleWheel = (event) => {
         event.preventDefault();
         const scrollAmount = event.deltaY; // This could be adjusted for sensitivity
@@ -47,7 +47,7 @@ const SidewaysScroll = () => {
 
       scrollContainer.addEventListener('wheel', handleWheel);
 
-      // Cleanup event listener on component unmount
+     
       return () => {
         if (scrollContainer) {
           scrollContainer.removeEventListener('wheel', handleWheel);
@@ -61,10 +61,10 @@ const SidewaysScroll = () => {
   return (
     <div className="scroll-container" ref={scrollContainerRef}>
       <div id="home" className="scroll-item"><Logo /></div>
+      <div id="drinks" className="scroll-item"><Drinks /></div>
       <div id="bites" className="scroll-item"><Bites /></div>
       <div id="main-menu" className="scroll-item"><MainMenu /></div>
       <div id="sweets" className="scroll-item"><Sweets /></div>
-      <div id="drinks" className="scroll-item"><Drinks /></div>
       <div id="contact" className="scroll-item"><Contact /></div>
     </div>
   );
