@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-y: hidden; 
 }
 
 .menu {
@@ -20,7 +20,7 @@
     box-shadow: 5px 5px 10px rgba(0.5, 0.5, 0.5, 0.2);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr; /* Define rows: auto for the header, 1fr for the rest */
+    grid-template-rows: auto 1fr; 
     gap: 20px;
     align-items: start;
     font-family: 'BarFont', sans-serif;
@@ -32,7 +32,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 0; /* Remove margin-top to bring items closer */
+    margin-top: 0; 
 }
 
 .order-desc {
@@ -47,13 +47,13 @@
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
-    margin-bottom: 10px; /* Optional: Add margin-bottom to control spacing */
+    margin-bottom: 10px; 
 }
 .menu-contact {
     font-size: 22px;
     text-align: center;
-    grid-column: span 2; /* Make the contact section span across both columns */
-    justify-self: center; /* Center the contact section horizontally */
+    grid-column: span 2; 
+    justify-self: center; 
     
 }
 .p-bold {

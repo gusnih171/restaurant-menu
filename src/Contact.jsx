@@ -11,7 +11,6 @@ const Contact = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Fade in when the element is in view
             gsap.to(element, {
               opacity: 1,
               y: 0,
@@ -19,17 +18,16 @@ const Contact = () => {
               ease: 'power2.out',
             });
           } else {
-            // Fade out when the element leaves the view
             gsap.to(element, {
               opacity: 0,
-              y: 20, // Move it slightly down when fading out
+              y: 20,
               duration: 1,
               ease: 'power2.out',
             });
           }
         });
       },
-      { threshold: 0.1 } // Trigger at 10% visibility
+      { threshold: 0.1 } 
     );
 
     if (element) {
@@ -46,7 +44,7 @@ const Contact = () => {
   return (
     <div
       ref={elementRef}
-      style={{ opacity: 0, transform: 'translateY(20px)' }} // Initial hidden state
+      style={{ opacity: 0, transform: 'translateY(20px)' }} 
     >
     <div className="menu-container">
       <div className="menu">
