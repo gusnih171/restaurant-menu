@@ -52,14 +52,22 @@ const Sweets = () => {
       <div className="menu">
         <h1>Sweets</h1>
         <div className="menu-column">
-          <p>Item 1</p>
-          <p>Item 2</p>
-          <p>Item 3</p>
+          <p className="order-name">Honey Bacon - 5€</p>
+          <p className="order-desc">Bacon Smoked Snd Dipped In Honey</p>
+          <p className="order-name">Raspberry Cake - 6€</p>
+          <p className="order-desc">Contains Raspberries</p>
+          <p className="order-name">Beef Jerky - 1€</p>
+          <p className="order-desc">Contains meat</p>
+          <p className="order-name">Chocolate Special - 6€</p>
+          <p className="order-desc">Chocolate, Strawberries, Whipped Cream</p>
         </div>
         <div className="menu-column">
-          <p>Item 4</p>
-          <p>Item 5</p>
-          <p>Item 6</p>
+        <p className="order-name">Cactus Ice Cream -3€</p>
+        <p className="order-name">Smoked Vanilla Ice Cream -3€</p>
+        <p className="order-name">Carrot Cake - 4€</p>
+        <p className="order-desc">Contains Carrot</p>
+        <p className="order-name">Lemon Slush - 2€</p>
+        
         </div>
       </div>
     </div>

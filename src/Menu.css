@@ -22,7 +22,6 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr; /* Define rows: auto for the header, 1fr for the rest */
     gap: 20px;
-    padding: 10px;
     align-items: start;
     font-family: 'BarFont', sans-serif;
     color: #633f33;
@@ -36,7 +35,13 @@
     margin-top: 0; /* Remove margin-top to bring items closer */
 }
 
+.order-desc {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: center;
+ }
 .menu h1 {
+    padding-top: 20px;
     grid-column: span 2;
     font-size: 36px;
     font-weight: bold;
@@ -49,6 +54,7 @@
     text-align: center;
     grid-column: span 2; /* Make the contact section span across both columns */
     justify-self: center; /* Center the contact section horizontally */
+    
 }
 .p-bold {
     font-size: 25px;
@@ -56,4 +62,10 @@
 }
 .p-underline {
     text-decoration: underline;
+}
+.order-name {
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }

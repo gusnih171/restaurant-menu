@@ -53,14 +53,17 @@ const Drinks = () => {
       <div className="menu">
         <h1>Drinks</h1>
         <div className="menu-column">
-          <p>Item 1</p>
-          <p>Item 2</p>
-          <p>Item 3</p>
+        <p className="order-name">Local Pilsner - 3€</p>
+        <p className="order-name">Local IPA (India Pale Ale) - 3€</p>
+        <p className="order-name">Local Lager - 3€</p>
+        <p className="order-name">Strawberry Milkshake - 7€</p>
         </div>
         <div className="menu-column">
-          <p>Item 4</p>
-          <p>Item 5</p>
-          <p>Item 6</p>
+        <p className="order-name">Soda - 1€</p>
+        <p className="order-name">Margarita - 3€</p>
+        <p className="order-name">Whiskey Sour - 3€</p>
+        <p className="order-name">Coffee - 2€</p>
+        <p className="order-name">Water - Free</p>
         </div>
       </div>
     </div>

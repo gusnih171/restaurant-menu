@@ -52,14 +52,16 @@ const Bites = () => {
       <div className="menu">
         <h1>Bites</h1>
         <div className="menu-column">
-          <p>Item 1</p>
-          <p>Item 2</p>
-          <p>Item 3</p>
+          <p className="order-name">Dirty Fries - 5€</p>
+          <p className="order-desc">Fries, Chopped onions, Mamas smokey ketchup, Pepper jack cheese</p>
+          <p className="order-name">Fries - 3€</p>
+          <p className="order-name">Pickled Cucumber - 3€</p>
         </div>
         <div className="menu-column">
-          <p>Item 4</p>
-          <p>Item 5</p>
-          <p>Item 6</p>
+        <p className="order-name">Chicken Wings - 6€</p>
+          <p className="order-desc">Chicken Wings, Mamas Smokey Ketchup, celery</p>
+          <p className="order-name">Smoked Peppers -3€</p>
+          <p className="order-name">Deep fried onion rings -3€</p>
         </div>
       </div>
     </div>

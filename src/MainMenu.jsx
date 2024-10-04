@@ -53,14 +53,20 @@ const MainMenu = () => {
       <div className="menu">
         <h1>Main Course</h1>
         <div className="menu-column">
-          <p>Smashed Kangaroo Burger</p>
-          <p>Item 2</p>
-          <p>Item 3</p>
+          <p className="order-name">Classic Cheeseburger - 10€</p>
+          <p className="order-desc">Beef Patty, Pepper Jack Cheese, Bun, Tomato, Pickles, Onions, Mamas Ketchup</p>
+          <p className="order-name">BBQ Bacon Burger - 11€</p>
+          <p className="order-desc">Beef Patty, Pepper Jack Cheese, Bun, Tomato, Pickles, Onions, Mamas BBQ-Sauce And Lots of Bacon</p>
+          <p className="order-name">Veggie Burger - 8€</p>
+          <p className="order-desc">This One Is For The Grass-Eaters. block of Cheese, Pepper Jack Cheese, Bun, Tomato, Pickles, Onions, Mamas Ketchup </p>
         </div>
         <div className="menu-column">
-          <p>Item 4</p>
-          <p>Item 5</p>
-          <p>Item 6</p>
+        <p className="order-name">Smoked Chicken Burger - 12€</p>
+          <p className="order-desc">Smoked Chicken Patty, Pepper Jack Cheese, Bun, Tomato, Pickles, Onions, Mamas Smokey Ketchup</p>
+          <p className="order-name">Beef Burger - 8€</p>
+          <p className="order-desc">Beef Patty, Bun, Mamas Smokey Ketchup</p>
+          <p className="order-name">Double Beef Burger - 12€</p>
+          <p className="order-desc">2x Beef Patty, Bun, Mamas Smokey Ketchup. Double the meat, double the fun!</p>
         </div>
       </div>
     </div>

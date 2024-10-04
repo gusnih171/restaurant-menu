@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import LogoCow from './component/CowLogo.jpeg';
-
+import './Logo.css'
 const Logo = () => {
     const elementRef = useRef(null);
 
@@ -12,7 +12,7 @@ const Logo = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Fade in when the element is in view
+            
             gsap.to(element, {
               opacity: 1,
               y: 0,
@@ -20,17 +20,17 @@ const Logo = () => {
               ease: 'power2.out',
             });
           } else {
-            // Fade out when the element leaves the view
+            
             gsap.to(element, {
               opacity: 0,
-              y: 20, // Move it slightly down when fading out
+              y: 20, 
               duration: 1,
               ease: 'power2.out',
             });
           }
         });
       },
-      { threshold: 0.1 } // Trigger at 10% visibility
+      { threshold: 0.1 } 
     );
 
     if (element) {
@@ -47,9 +47,24 @@ const Logo = () => {
   return (
     <div
       ref={elementRef}
-      style={{ opacity: 0, transform: 'translateY(20px)' }} // Initial hidden state
+      style={{ opacity: 0, transform: 'translateY(20px)' }} 
     >
-    <img className='logo' src={LogoCow}/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <div class="container">
+          <div class="box">
+            <img className='logo' src={LogoCow}/> 
+              <div class="content"> 
+                <h1>Welcome to Burger Restaurant</h1> 
+                  <p>In the heart of Burger Town, a small Southern city known for its charm and hospitality, there was a cozy little spot called Burger Restaurant. My father, a jolly man with a big beard and even bigger heart, had opened the restaurant with one mission: to create the best cheeseburger in Burger Town. His secret? Fresh, local ingredients and recipes passed down from his mother, who made the sauces by hand.
+
+Every morning, My father would fire up the grill, seasoning the beef with a blend of spices that only he knew. The smell of sizzling burgers filled the air, drawing locals and travelers alike. Customers loved the classic cheeseburger, with juicy patties, Pepper Jack Cheese, crisp pickles, and Mamas signature BBQ sauces, all served on a toasted bun.
+
+We became the pride of Burger Town. Families came after church, and road trippers made it a point to stop by for lunch. There was something about the combination of food, friendly atmosphere, and our stories that made it special. As word spread, Burger Restaurant became a must-visit for anyone who passed through.
+
+No matter how busy the restaurant got, we always had time to chat with customers, asking about their day and sharing our love for great food. For the people of Burger Town, Burger Restaurant wasn't just a restaurant; it was a place that felt like home. And that is our story.</p> 
+              </div> 
+          </div>
+        </div>
     </div>
   );
 };
