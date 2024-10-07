@@ -60,8 +60,10 @@ const Bites = () => {
         <div className="menu-column">
         <p className="order-name">Chicken Wings - 6€</p>
           <p className="order-desc">Chicken Wings, Mamas Smokey Ketchup, celery</p>
-          <p className="order-name">Smoked Peppers -3€</p>
-          <p className="order-name">Deep fried onion rings -3€</p>
+          <p className="order-name">Smoked Peppers - 3€</p>
+          <p className="order-name">Deep fried onion rings - 3€</p>
+          <p className="order-name">Smokey BBQ Ribs - 4€</p>
+          <p className="order-desc">"best ribs in town" - sheriff johnsson</p>
         </div>
       </div>
     </div>
