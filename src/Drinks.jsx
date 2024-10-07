@@ -59,10 +59,10 @@ const Drinks = () => {
         </div>
         <div className="menu-column">
         <p className="order-name">Soda - 1€</p>
-        <p className="order-name">Margarita - 3€</p>
-        <p className="order-name">Whiskey Sour - 3€</p>
+        <p className="order-name">Margarita - 4€</p>
+        <p className="order-name">Whiskey Sour - 4€</p>
         <p className="order-name">Coffee - 2€</p>
-        <p className="order-name">Water - Free</p>
+        <p className="order-name">Sparkling Water - 3€</p>
         </div>
       </div>
     </div>
