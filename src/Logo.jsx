@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import LogoCow from './component/CowLogo.jpeg';
 import './Logo.css'
 import ReviewSlides from './ReviewSlides.jsx';
+
 const Logo = () => {
     const elementRef = useRef(null);
 
@@ -53,7 +54,7 @@ const Logo = () => {
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <div class="container">
           <div class="box">
-            <img className='logo' src={LogoCow}/> 
+            <img className='logo' src={LogoCow} alt='logo'/> 
               <div class="content"> 
                 <h1>Welcome to Burger Restaurant</h1> 
                   <p>In the heart of Burger Town, a small Southern city known for its charm and hospitality, there was a cozy little spot called Burger Restaurant. My father, a jolly man with a big beard and even bigger heart, had opened the restaurant with one mission: to create the best cheeseburger in Burger Town. His secret? Fresh, local ingredients and recipes passed down from his mother, who made the sauces by hand.</p>
