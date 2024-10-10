@@ -27,10 +27,6 @@
   border-radius: 4px;
 }
 
-.scroll-container::-webkit-scrollbar-thumb:hover {
-  background: #f8fcf4
-}
-
 .logo {
   width: 650px;
   height: 650px;
